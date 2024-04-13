@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2023/12/purple-blue-liquid-desktop-wallpaper-preview.jpg); /* Reemplaza 'universe.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Cambiamos el color del texto a blanco para mayor contraste */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Añadimos un fondo semi-transparente para el encabezado */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+header p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Añadimos un fondo semi-transparente para el contenido principal */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    text-align: center;
+}
+
+.options {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    color:black;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px; 
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    opacity: 0.9;
+
+}
+
+.answer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8); /* Añadimos un fondo semi-transparente para la respuesta */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff; /* Cambiamos el color del texto de la respuesta a negro para mayor contraste */
+    opacity: 0.9;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6); /* Añadimos un fondo semi-transparente para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+

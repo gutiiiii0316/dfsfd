@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hola.css">
+    <title>Absurdidades</title>
+</head>
+<body>
+    <header>
+        <h1>Soluciones Absurdas</h1>
+        <p>Para una vida absurdamente fácil</p>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <img src="Gato_morado-removebg-preview.png" alt="Absurdidades" width="180px" height="180px">
+        </div>
+
+        <div class="options">
+            <label for="problema">Selecciona un problema:</label>
+            <select id="problema" onchange="mostrarRespuesta()">
+                <option value="">Escoge un problema</option>
+                <option value="1">Perdí mis llaves</option>
+                <option value="2">Me aburro en el tráfico</option>
+                <option value="3">Siempre se me caen las cosas cuando estoy en la cama</option>
+                <option value="4">Opción 4</option>
+                <option value="5">Opción 5</option>
+                <option value="6">Opción 6</option>
+                <option value="7">Opción 7</option>
+            </select>
+        </div>
+
+        <div id="respuesta" class="answer"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Absurdidades - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="hola.js"></script>
+</body>
+</html>
